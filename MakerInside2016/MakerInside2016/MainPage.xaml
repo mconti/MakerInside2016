@@ -1,0 +1,48 @@
+﻿<Page
+    x:Class="MakerInside2016.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MakerInside2016"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <!--Prima Riga-->
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" FontSize="100" Text="Maker Inside 2016"></TextBlock>
+
+        <!--Seconda Riga-->
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <StackPanel Margin="20">
+                <toolkit:Gauge 
+                    x:Name="gaugeTemperatura" 
+                    Height="600" 
+                    Width="600"
+                    HorizontalAlignment="Left" 
+                    Minimum="0"
+                    Maximum="1023"
+                    Value="{Binding ElementName=sliderTemperatura, Path=Value}"></toolkit:Gauge>
+
+                <Slider 
+                    x:Name="sliderTemperatura" 
+                    Width="{Binding ElementName=gaugeTemperatura, Path=Height}" 
+                    Height="40" 
+                    Maximum="1023" 
+                    Minimum="0" 
+                    HorizontalAlignment="Left"
+                    ValueChanged="sliderTemperatura_ValueChanged"></Slider>
+                
+            </StackPanel>
+
+            <StackPanel Background="Beige" Margin="20">
+                <ListView x:Name="listviewLog" Width="400"  Background="AliceBlue" Height="500"></ListView>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
