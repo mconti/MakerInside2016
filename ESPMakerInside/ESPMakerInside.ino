@@ -13,8 +13,8 @@
 #include <Adafruit_NeoPixel.h>
 
 // WiFi parameters
-const char* ssid = "IoT";
-const char* password = "Prova1234";
+const char* ssid = "PSsid";
+const char* password = "pssid";
 
 // Variabili di appoggio
 int R,G,B;
