@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="conti.maurizio.dweet.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:conti.maurizio.dweet"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maker="using:WinRTXamlToolkit.Controls"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Slider Grid.Row="0" x:Name="mioSlider" Minimum="0" Maximum="255" Height="100" Width="300" ValueChanged="mioSlider_ValueChanged"></Slider>
+        <maker:Gauge Grid.Row="1"  x:Name="mioGauge" Minimum="0" Maximum="255" Height="300" Width="300"></maker:Gauge>
+    
+    </Grid>
+</Page>
