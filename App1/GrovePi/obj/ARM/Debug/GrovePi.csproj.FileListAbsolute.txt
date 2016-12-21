@@ -1,0 +1,17 @@
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\bin\ARM\Debug\GrovePi.dll
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\bin\ARM\Debug\GrovePi.pdb
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\bin\ARM\Debug\GrovePi.pri
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\GrovePi.csprojResolveAssemblyReference.cache
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\GrovePi.dll
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\GrovePi.pdb
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\priconfig.xml
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\layout.resfiles
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\resources.resfiles
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\pri.resfiles
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\qualifiers.txt
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\posta\Desktop\GrovePi-master\Software\CSharp\GrovePi\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
